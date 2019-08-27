@@ -7,8 +7,6 @@ float division();
 int main()
 {
    int rp;
-    int c=5*8/2*7+1;
-    printf("%d\n\n",c);
 
    printf("choose operation:- \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n");
 
