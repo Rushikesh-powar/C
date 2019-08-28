@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int recuse();
 
+int recuse();
 int main()
 {
   int i,n;
@@ -34,8 +34,6 @@ int recuse()
             printf("The ans is: %d \n",str);
 
     }
-
     return str;
-
 }
 
