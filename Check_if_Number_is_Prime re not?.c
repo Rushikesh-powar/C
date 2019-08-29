@@ -3,12 +3,11 @@
 
 int main()
 {
-   int x,y,z=2,i,r,q;
+   int x,y,z=2,r,q;
 
    printf("How many times would you like to run the program? :");
    scanf("%d",&x);
-
-    for(i=0 ; i<x ; i++)
+   while(x-- > 0)
    {
 
     printf("\n Enter an Number: ");
