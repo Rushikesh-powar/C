@@ -30,9 +30,9 @@ int prime()
        }
        if(j==a)
         printf("%d ",a);
-
    }
-} else
+} 
+    else
    {
         for(;a>b;a--)
         {
@@ -43,10 +43,10 @@ int prime()
                     continue;
                 else
                     break;
-       }
-       if(j==a)
-        printf("%d ",a);
-   }
+            }
+            if(j==a)
+             printf("%d ",a);
+        }
   }
 
   printf("\n Would you like to continue? \n yes='1'   no='0' \n ans=");
