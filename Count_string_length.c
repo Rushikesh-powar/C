@@ -8,10 +8,11 @@ int main()
   scanf(" %s", a);
 
   printf("The length of string is: ");
+  
   for(i=0; a[i] !='\0';i++)
   
-   j=i;
-   printf("%d\n",j);
+  j=i;
+  printf("%d\n",j);
   
 return 0;
 }
