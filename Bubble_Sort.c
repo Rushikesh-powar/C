@@ -10,6 +10,7 @@ int main()
     scanf("%d",&v);
 
     int arr[v];
+    
     printf("Enter the array elements: ");
     for(i=0;i<v;i++)
         scanf("%d",&arr[i]);
@@ -23,7 +24,6 @@ int main()
                 arr[k]=arr[k+1];
                 arr[k+1]=temp;
             }
-
         }
 
         printf("The shorted list is: ");
