@@ -1,5 +1,5 @@
 /*Rushikesh Powar
-this program is to insertion *
+this program is for insertion */
 #include <stdio.h>
 #include <stdbool.h>
 
